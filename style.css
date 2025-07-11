@@ -1,7 +1,21 @@
+
+
+button:hover {
+
+    background-color: black;
+}
+
+
+
+
+
 .banner{
     background-image: url(./Assets/Hero-bg.png);
-    width: 1448px;
-    height: 698px;
+    /* width: 1448px;
+    height: 698px; */
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
 }
 .navbar{
     display: flex;
@@ -22,11 +36,12 @@
 }
 .section1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:220px;
     margin-top: 200px;
-    width: 1140px;
-    height: 330px;
-    margin-left: 141px
+    /* width: 1140px;
+    height: 330px; */
+    margin-left: 200px
 }
 .heading {
     text-align: center;
@@ -37,7 +52,8 @@
     height: 306px;
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 30px;
-    margin-left: 177px;
+    margin-left: 400px;
+    margin-right:160px;
     padding-bottom: 200px;
     margin-top: 150px;
 }
@@ -48,15 +64,15 @@
 }
 .section3 {
     display: flex;
-    justify-content: space-around;
-    margin-left: 160px;
+    gap: 100px;
+    justify-content: space-between;
+    margin-left: 430px;
     
 }
-/* .review {
-    width: 366px;
-    height: 243px;
+.review {
+    background-color: rgba(255, 255, 255, 0.5);
     
-} */
+}
 .users {
     text-align: center;
     padding-bottom: 50px; 
@@ -98,7 +114,7 @@
     height: 632px;
     display: flex;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 400px;
     margin-top: 100px;
     gap: 200px;
 }
@@ -118,6 +134,7 @@
 .footer {
     width: 1440px;
     height: 428px;
+    margin-left: 200px;
     
 }
 .size {
@@ -158,6 +175,7 @@
 }
 .bold1 {
     font-size: 35px;
+    font-family: "raleway";
     
 }
 .border {
@@ -174,4 +192,11 @@
     font-size: 58px;
     font-weight: 900;
 
+}
+.bold4 {
+    font-weight: normal;
+}
+.section4 {
+    padding-right: 600px;
+    margin-left: 500px;
 }
