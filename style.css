@@ -13,15 +13,20 @@
     margin: 250px 250px 0px 250px;
 }
 .button1 {
-    background-color: burlywood; 
-    width: 174px;
+    background-color: #1637de; 
+    width: 195px;
     height: 48px;
     border-radius: 8px;
+    border: none;
+    color: white;
 }
 .section1 {
     display: flex;
     justify-content: space-around;
     margin-top: 200px;
+    width: 1140px;
+    height: 330px;
+    margin-left: 141px
 }
 .heading {
     text-align: center;
@@ -39,4 +44,114 @@
     display: flex;
     gap: 160px;
     justify-content: center;
+}
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 160px;
+    
+}
+.review {
+    width: 366px;
+    height: 243px;
+    
+}
+.users {
+    text-align: center;
+    padding-bottom: 50px; 
+    
+    
+
+}
+/* immage edit */
+.first {
+    border-radius: 40px;
+}
+.loved {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.main {
+    margin-top: 137px;
+}
+.focus {
+    text-align: center;
+}
+.second { 
+    
+    width: 840px;
+    height: 364px;
+    border-radius: 40px;
+
+}
+.image {
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+.section5 {
+    width: 1140px;
+    height: 632px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 100px;
+    gap: 200px;
+}
+.form {
+    width: 497px;
+    height: 490px;
+
+}
+
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-decoration: none;
+
+}
+.footer {
+    width: 1440px;
+    height: 428px;
+    
+}
+.size {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 80px;
+}
+.email {
+    width: 497px;
+    height: 70px;
+    border-radius: 8px;
+    border: none;
+    background-color: #edeff0;
+
+}
+.mass {
+    width: 497px;
+    height: 135px;
+    border-radius: 8px;
+    border: none;
+    background-color: #edeff0;
+}
+.button3 {
+    width: 497px;
+    height: 62px;
+    background-color: #1637de;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.bold {
+    font-size: 50px;
+}
+.color {
+    color: #1637de;
+}
+.bold1 {
+    font-size: 25px;
 }
