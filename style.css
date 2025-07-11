@@ -200,3 +200,12 @@ button:hover {
     padding-right: 600px;
     margin-left: 500px;
 }
+.bold5 {
+    font-family: "inter";
+    font-size: 80px;
+    font-weight: bold;
+}
+.background2 {
+    background-color: #f0f2f5;
+    
+}
