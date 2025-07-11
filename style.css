@@ -33,12 +33,13 @@
     padding-top: 105px;
 }
 .section2 {
-    margin-top: 107px;
     width: 1140px;
     height: 306px;
     background-color: rgba(78, 71, 255, 0.1);
-    margin-left: 141px;
     border-radius: 30px;
+    margin-left: 177px;
+    padding-bottom: 200px;
+    margin-top: 150px;
 }
 .rating {
     display: flex;
@@ -51,11 +52,11 @@
     margin-left: 160px;
     
 }
-.review {
+/* .review {
     width: 366px;
     height: 243px;
     
-}
+} */
 .users {
     text-align: center;
     padding-bottom: 50px; 
@@ -74,6 +75,8 @@
 }
 .main {
     margin-top: 137px;
+    width: 1140px;
+    height: 342px;
 }
 .focus {
     text-align: center;
@@ -110,7 +113,6 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-    text-decoration: none;
 
 }
 .footer {
@@ -147,11 +149,29 @@
     color: white;
 }
 .bold {
-    font-size: 50px;
+    font-family: "inter";
+    font-size: 40px;
+    font-weight: bold;
 }
 .color {
     color: #1637de;
 }
 .bold1 {
-    font-size: 25px;
+    font-size: 35px;
+    
+}
+.border {
+    border: none;
+}
+.text {
+    text-decoration: none;
+    color: black;
+}
+.pading {
+    padding-top: 35px;
+}
+.bold2 {
+    font-size: 58px;
+    font-weight: 900;
+
 }
